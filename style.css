@@ -1,0 +1,20 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 10%;
+}
+
+.about, .contact, .portfolio {
+    display: flex;
+}
+
+.about div, .contact div, .portfolio div {
+    width: 25%;
+}
+
+.about section, .contact section, .portfolio section {
+    width: 75%;
+}
