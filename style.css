@@ -1,8 +1,10 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
 }
 
+/* HEADER */
 header {
     display: flex;
     justify-content: space-between;
@@ -30,6 +32,7 @@ header nav ul li {
     margin-left: 15px;
 }
 
+/* PROFILE PIC*/
 .profilePic {
     width: 100%;
     display: flex;
@@ -43,19 +46,62 @@ header nav ul li {
     border: 2px solid rgb(0, 110, 255);
 }
 
-img {
-    width: 10%;
-}
-
-.about, .contact, .portfolio {
+/* MAIN SECTIONS */
+.about,
+.contact,
+.portfolio {
     display: flex;
     margin: 2em 5em 0 5em;
 }
 
-.about div, .contact div, .portfolio div {
+.about div,
+.contact div,
+.portfolio div {
     width: 25%;
+    color: rgb(0, 110, 255);
 }
 
-.about section, .contact section, .portfolio section {
+.about section,
+.contact section,
+.portfolio section {
     width: 75%;
+}
+
+/* PORTFOLIO */
+img {
+    width: 10%;
+}
+
+.contact {
+    margin-bottom: 2em;
+}
+
+.contact ul {
+    display: flex;
+}
+
+.contact li {
+    list-style-type: none;
+    margin: 0 20px 0 20px;
+}
+
+.contactUl a{
+ text-decoration: none;
+ color: rgb(0, 110, 255);
+}
+
+/* FOOTER */
+
+footer {
+    background: rgb(0, 110, 255);
+    color: white;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 0;
 }
