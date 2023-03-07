@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0 2em 0 2em;
-    background: rgb(0, 110, 255);
+    background: rgb(68, 81, 99);
     color: white;
     height: 50px;
 }
@@ -43,11 +43,11 @@ header nav ul li {
 .profilePic img {
     width: 20%;
     border-radius: 50%;
-    border: 2px solid rgb(0, 110, 255);
+    border: 2px solid rgb(87, 105, 129);
 }
 
 /* MAIN SECTIONS */
-.about,
+.about,5
 .contact,
 .portfolio {
     display: flex;
@@ -58,7 +58,7 @@ header nav ul li {
 .contact div,
 .portfolio div {
     width: 25%;
-    color: rgb(0, 110, 255);
+    color: rgb(5, 6, 6);
 }
 
 .about section,
@@ -69,8 +69,9 @@ header nav ul li {
 
 /* PORTFOLIO */
 img {
-    width: 10%;
+    width: 45%
 }
+
 
 .contact {
     margin-bottom: 2em;
@@ -87,13 +88,13 @@ img {
 
 .contactUl a{
  text-decoration: none;
- color: rgb(0, 110, 255);
+ color: rgb(14, 15, 15);
 }
 
 /* FOOTER */
 
 footer {
-    background: rgb(0, 110, 255);
+    background: rgb(84, 103, 129);
     color: white;
     width: 100vw;
     margin: 0;
@@ -104,4 +105,5 @@ footer p {
     text-align: center;
     padding: 10px 0 10px 0;
     margin: 0;
+    
 }
